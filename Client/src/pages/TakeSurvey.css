@@ -1,0 +1,167 @@
+.take-survey-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.survey-header {
+  margin-bottom: 40px;
+}
+
+.survey-header h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.survey-header .description {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.survey-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.question-container:last-of-type {
+  border-bottom: none;
+}
+
+.question-text {
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.required {
+  color: #e74c3c;
+  margin-left: 5px;
+}
+
+.options-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  color: #555;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background 0.2s;
+}
+
+.option-label:hover {
+  background: #f5f5f5;
+}
+
+.option-label input[type='radio'] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.rating-group {
+  display: flex;
+  gap: 10px;
+}
+
+.rating-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.rating-label:hover {
+  border-color: #667eea;
+  background: #f5f5ff;
+}
+
+.rating-label input[type='radio'] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.survey-form input[type='text'],
+.survey-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.survey-form input:focus,
+.survey-form textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 20px;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: #27ae60;
+}
+
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+}
+
+.success-message h2 {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
