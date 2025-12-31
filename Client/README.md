@@ -1,3 +1,9 @@
+Client frontend for the Survey/Feedback Application.
+
+See the root README for setup and run instructions.
+
+This file intentionally replaces the default Vite template README.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
